@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主色调 -->
+    <color name="primary_color">#FF6B35</color>
+    <color name="primary_dark">#E55A2B</color>
+    <color name="primary_light">#FF8C5A</color>
+    
+    <!-- 训练状态颜色 -->
+    <color name="workout_color">#E74C3C</color>
+    <color name="workout_light">#F1948A</color>
+    <color name="rest_color">#2ECC71</color>
+    <color name="rest_light">#82E0AA</color>
+    <color name="warmup_color">#F39C12</color>
+    <color name="cooldown_color">#3498DB</color>
+    
+    <!-- 背景色 -->
+    <color name="background">#F8F9FA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F1F3F4</color>
+    
+    <!-- 文字颜色 -->
+    <color name="text_primary">#2C3E50</color>
+    <color name="text_secondary">#7F8C8D</color>
+    <color name="text_hint">#BDC3C7</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    
+    <!-- 状态颜色 -->
+    <color name="success_color">#27AE60</color>
+    <color name="warning_color">#F39C12</color>
+    <color name="error_color">#E74C3C</color>
+    <color name="info_color">#3498DB</color>
+    
+    <!-- 边框颜色 -->
+    <color name="border_light">#E0E0E0</color>
+    <color name="border_medium">#BDBDBD</color>
+    <color name="border_dark">#757575</color>
+    
+    <!-- 进度条颜色 -->
+    <color name="progress_background">#E0E0E0</color>
+    <color name="progress_workout">#E74C3C</color>
+    <color name="progress_rest">#2ECC71</color>
+    <color name="progress_warmup">#F39C12</color>
+    <color name="progress_cooldown">#3498DB</color>
+
+    <!-- 新增颜色 -->
+    <color name="primary">#FF6B35</color>
+    <color name="secondary_text">#7F8C8D</color>
+    <color name="hint_text">#BDC3C7</color>
+    <color name="outline">#E0E0E0</color>
+
+    <!-- 计划类型颜色 -->
+    <color name="type_simple">#3498DB</color>
+    <color name="type_multi_stage">#9B59B6</color>
+    <color name="type_hiit">#E74C3C</color>
+    <color name="type_tabata">#F39C12</color>
+    <color name="type_bodyweight">#2ECC71</color>
+    <color name="type_incline">#16A085</color>
+</resources>

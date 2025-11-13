@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 应用主题 -->
+    <style name="Theme.WorkoutTimer" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:navigationBarColor">@color/background</item>
+    </style>
+
+    <!-- 筛选标签样式 -->
+    <style name="FilterChipStyle" parent="Widget.Material3.Chip.Filter">
+        <item name="chipStrokeColor">@color/primary</item>
+        <item name="chipBackgroundColor">@color/surface</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <!-- 类型标签样式 -->
+    <style name="TypeChipStyle" parent="Widget.Material3.Chip.Assist">
+        <item name="chipBackgroundColor">@color/type_simple</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="chipCornerRadius">12dp</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- 状态标签样式 -->
+    <style name="StatusChipStyle" parent="Widget.Material3.Chip.Filter">
+        <item name="chipBackgroundColor">@color/success</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="chipCornerRadius">8dp</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <!-- 文本按钮样式 -->
+    <style name="TextButtonStyle" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:minHeight">32dp</item>
+    </style>
+
+    <!-- 轮廓按钮样式 -->
+    <style name="OutlinedButtonStyle" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/error</item>
+        <item name="strokeColor">@color/error</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:minHeight">32dp</item>
+    </style>
+
+    <!-- 对话框样式 -->
+    <style name="DialogTheme" parent="Theme.Material3.DayNight.Dialog">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorSurface">@color/surface</item>
+    </style>
+
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">训练间隔计时器</string>
+    
+    <!-- 导航标签 -->
+    <string name="nav_plans">计划</string>
+    <string name="nav_presets">预设</string>
+    <string name="nav_history">历史</string>
+    
+    <!-- 计时器状态 -->
+    <string name="timer_ready">准备开始</string>
+    <string name="timer_workout">训练中</string>
+    <string name="timer_rest">休息中</string>
+    <string name="timer_paused">已暂停</string>
+    <string name="timer_completed">训练完成</string>
+    
+    <!-- 控制按钮 -->
+    <string name="btn_start">开始</string>
+    <string name="btn_pause">暂停</string>
+    <string name="btn_resume">继续</string>
+    <string name="btn_reset">重置</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_delete">删除</string>
+    
+    <!-- 训练类型 -->
+    <string name="workout_type_simple">简单计时</string>
+    <string name="workout_type_multi_stage">多阶段训练</string>
+    <string name="workout_type_hiit">HIIT训练</string>
+    <string name="workout_type_tabata">Tabata训练</string>
+    <string name="workout_type_bodyweight">自重训练</string>
+    <string name="workout_type_incline">爬坡训练</string>
+    
+    <!-- 阶段类型 -->
+    <string name="stage_type_warmup">热身</string>
+    <string name="stage_type_workout">训练</string>
+    <string name="stage_type_rest">休息</string>
+    <string name="stage_type_cooldown">冷身</string>
+    
+    <!-- 通知通道 -->
+    <string name="timer_channel_group">计时器通知</string>
+    <string name="timer_channel_id">timer_notifications</string>
+    <string name="timer_channel_name">计时器提醒</string>
+    <string name="timer_channel_description">训练计时器的时间提醒</string>
+    
+    <!-- 预设模板名称 -->
+    <string name="preset_hiit">HIIT训练</string>
+    <string name="preset_tabata">Tabata训练</string>
+    <string name="preset_bodyweight">自重训练</string>
+    <string name="preset_incline">爬坡训练</string>
+    
+    <!-- 预设模板描述 -->
+    <string name="preset_hiit_desc">30秒训练 / 10秒休息</string>
+    <string name="preset_tabata_desc">20秒训练 / 10秒休息</string>
+    <string name="preset_bodyweight_desc">45秒训练 / 15秒休息</string>
+    <string name="preset_incline_desc">45分钟多阶段训练</string>
+    
+    <!-- 快速添加 -->
+    <string name="quick_add_title">快速添加</string>
+    <string name="recommended_plans">推荐方案</string>
+    <string name="common_templates">常用模板</string>
+    <string name="quick_actions">快速操作</string>
+    <string name="copy_recent">复制最近</string>
+    <string name="batch_edit">批量编辑</string>
+    
+    <!-- 批量编辑 -->
+    <string name="batch_edit_title">批量编辑</string>
+    <string name="select_stages">选择阶段</string>
+    <string name="batch_operations">批量操作</string>
+    <string name="incline_adjust">坡度调整</string>
+    <string name="speed_adjust">速度调整</string>
+    <string name="time_adjust">时间调整</string>
+    
+    <!-- 训练参数 -->
+    <string name="incline">坡度</string>
+    <string name="speed">速度</string>
+    <string name="heart_rate">心率</string>
+    <string name="duration">时长</string>
+    <string name="cycles">循环次数</string>
+    
+    <!-- 单位 -->
+    <string name="unit_percent">%</string>
+    <string name="unit_km_h">km/h</string>
+    <string name="unit_seconds">秒</string>
+    <string name="unit_minutes">分钟</string>
+    
+    <!-- 错误消息 -->
+    <string name="error_invalid_duration">时长必须在%1$d-%2$d秒之间</string>
+    <string name="error_invalid_cycles">循环次数必须在%1$d-%2$d次之间</string>
+    <string name="error_plan_name_empty">训练计划名称不能为空</string>
+    <string name="error_no_stages">训练计划必须包含至少一个阶段</string>
+    
+    <!-- 成功消息 -->
+    <string name="success_plan_saved">训练计划已保存</string>
+    <string name="success_plan_deleted">训练计划已删除</string>
+    <string name="success_workout_completed">训练完成！</string>
+    
+    <!-- 通知消息 -->
+    <string name="notification_timer_running">计时器运行中</string>
+    <string name="notification_workout_start">训练开始</string>
+    <string name="notification_rest_start">休息开始</string>
+    <string name="notification_workout_completed">训练完成</string>
+</resources>

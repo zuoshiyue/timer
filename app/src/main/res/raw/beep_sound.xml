@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 计时器提示音 -->
+    <raw name="timer_beep" />
+    
+    <!-- 训练完成提示音 -->
+    <raw name="workout_complete" />
+    
+    <!-- 阶段完成提示音 -->
+    <raw name="stage_complete" />
+    
+    <!-- 警告提示音 -->
+    <raw name="warning_sound" />
+</resources>

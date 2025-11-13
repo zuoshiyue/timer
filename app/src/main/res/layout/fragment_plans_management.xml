@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background">
+
+    <!-- 标题和搜索栏 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="训练计划管理"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_create_plan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="创建计划"
+            style="@style/TimerButtonStyle" />
+
+    </LinearLayout>
+
+    <!-- 搜索框 -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:startIconDrawable="@drawable/ic_search">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="搜索训练计划..." />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- 筛选标签 -->
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chip_group_filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全部"
+            android:checked="true"
+            style="@style/FilterChipStyle" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_hiit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HIIT"
+            style="@style/FilterChipStyle" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_tabata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TABATA"
+            style="@style/FilterChipStyle" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_simple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="简单"
+            style="@style/FilterChipStyle" />
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <!-- 训练计划列表 -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_plans"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="16dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_workout_plan_management" />
+
+    <!-- 空状态提示 -->
+    <LinearLayout
+        android:id="@+id/empty_state"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_empty_plans"
+            android:tint="@color/primary"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="暂无训练计划"
+            android:textSize="18sp"
+            android:textColor="@color/secondary_text"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点击下方按钮创建第一个训练计划"
+            android:textSize="14sp"
+            android:textColor="@color/hint_text" />
+
+    </LinearLayout>
+
+</LinearLayout>

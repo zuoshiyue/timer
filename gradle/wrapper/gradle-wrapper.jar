@@ -1,0 +1,3 @@
+# 这是一个占位文件，实际的gradle-wrapper.jar需要通过gradle wrapper命令生成
+# 在Trae编译器中，您需要运行以下命令来生成完整的gradle wrapper：
+# ./gradlew wrapper --gradle-version=8.0
